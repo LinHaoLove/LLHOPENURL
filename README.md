@@ -1,6 +1,11 @@
 # LLHOPENURL
 在 app 中打开 iPhone 通用设置,系统软件,以及系统服务的方法.
 
+*更新:在iOS10中无法跳转到该应用的消息设置,如果你有更好的解决方案,欢迎分享.
+
+	url=[NSURL URLWithString:UIApplicationOpenSettingsURLString];
+
+
 
 1,在 app 中打开 iPhone 通用设置,系统软件,以及系统服务的方法.
 
